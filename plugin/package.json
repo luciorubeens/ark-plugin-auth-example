@@ -1,0 +1,25 @@
+{
+  "name": "ark-plugin-auth-example",
+  "version": "1.0.0",
+  "main": "dist/ark-plugin-auth-example.cjs.js",
+  "module": "dist/ark-plugin-auth-example.esm.js",
+  "author": "Lucio Rubens",
+  "license": "MIT",
+  "desktop-wallet": {
+    "title": "Auth Example",
+    "permissions": [
+      "LAUNCH",
+      "HTTP"
+    ]
+  },
+  "scripts": {
+    "build": "preconstruct build"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.7",
+    "@preconstruct/cli": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  }
+}

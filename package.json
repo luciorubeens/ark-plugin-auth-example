@@ -1,0 +1,6 @@
+{
+    "name": "example",
+    "scripts": {
+        "start": "cd plugin; yarn build; cd ../server; yarn start"
+    }
+}
